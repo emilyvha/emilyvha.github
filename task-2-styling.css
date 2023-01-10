@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+/*****************************
+            TAGS
+******************************/
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    color: #7279ca;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    line-height: 1.4;
+}
+
+img{
+    width: fit-content;
+    display: block;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem
+}
+
+header{
+    min-height: 100vh;
+}
+
+.navbar{
+    background: #a9ade2;
+    padding: 1.2rem;
+}
+
+.navbar-brand{
+    color: #5e64a6;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.navbar-nav a{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #5c62a2;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.4rem 0.1rem;
+    letter-spacing: 3px;
+    transition: opacity 0.5s ease;
+}
+
+.navbar-nav{
+    font-size: small;
+    text-align: center;
+}
+
+.navbar-nav a:hover{
+    opacity: 0.7;
+}
+
+.banner{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #5c62a2;
+}
+
+.banner-title{
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+#div1{
+    float: left;
+}
+
+#div2{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
